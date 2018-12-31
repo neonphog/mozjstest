@@ -1,0 +1,10 @@
+[package]
+name = "mozjstest"
+version = "0.1.0"
+authors = ["neonphog <neonphog@gmail.com>"]
+edition = "2018"
+
+[dependencies.mozjs]
+git = "https://github.com/servo/rust-mozjs"
+optional = false
+features = ["debugmozjs"]
